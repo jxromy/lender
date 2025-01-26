@@ -15,5 +15,7 @@ public class Main {
         m2.setAsPaid("Alice Betsy");
         m2.listLoans();
         System.out.println("profit from m2: " + m2.calculateProfitEarned());
+
+        System.out.println("Max Loan Amount: " + Loan.maxLoanAmount); // maxLoanAmount is a Class-level member
     }
 }
